@@ -34,7 +34,7 @@ docker build -t wordpress:latest . > /dev/null
 echo "\033[36mwordpress deployment\033[0m"
 kubectl apply -f wordpress.yaml
 
- ftps
+# ftps
 cd ../ftps
 echo "\033[32mftps image build\033[0m"
 docker build -t ftps:latest .	> /dev/null
