@@ -8,7 +8,7 @@ mv localhost-nginx.crt /etc/nginx/ssl
 
 # nginx 디렉토리 만들고(nginx 구동 시 필요) html파일 생성
 mkdir -p /run/nginx
-echo "<h1>THIS IS hjung's FT_SERVICES NGINX INDEX.HTML</h1>" >> /var/www/index.html
+echo "<h1>hello world!.HTML</h1>" >> /var/www/index.html
 
 # nginx global, foreground에서 실행(1파드 1컨테이너일 때 사용)
 /usr/sbin/nginx -g "daemon off;"
